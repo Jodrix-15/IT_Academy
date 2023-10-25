@@ -1,1 +1,0 @@
-Una asserció que demostri que la referència a un objecte és la mateixa que una altra, i una altra que indiqui que és diferent.
