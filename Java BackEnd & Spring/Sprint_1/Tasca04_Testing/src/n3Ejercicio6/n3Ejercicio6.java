@@ -2,7 +2,7 @@ package n3Ejercicio6;
 
 import java.util.ArrayList;
 
-public class n3Ejercicio6 extends Exception {
+public class n3Ejercicio6 {
 	
 	/*Provoca una ArrayIndexOutOfBoundsException 
 	 * en una classe qualsevol. Crea una asserció 
@@ -17,10 +17,7 @@ public class n3Ejercicio6 extends Exception {
 		listNum.add(7);
 		
 		
-		if(index >= listNum.size()) {
-			throw new ArrayIndexOutOfBoundsException("Error");
-			
-		}else return listNum.get(index);
+		return listNum.get(index);
 	
 	}
 	
